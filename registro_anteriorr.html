@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Registro</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/contraseña.css">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+	
+<div class="container-fluid pl-0 pr-0">
+<nav class="navbar navbar-expand-sm sticky-top">
+  <a class="navbar-brand logo ">
+    <img src="img/logo_machin.png" width="40px" class="d-inline-block align-top"  alt="logo">Machine Music</a>
+
+
+</nav>
+</div>
+
+
+<div class="container">
+	
+	<div class="row justify-content-center mt-5 ">
+		<form method="POST" action="nuevo_registro.php">
+			<div class="form-group col-12">
+			<h2>Registrate</h2>
+		</div>
+  <div class="col-12">
+    <label for="formGroupExampleInput">Nombre de usuario</label>
+    <input name="usuario" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese nombre de usuario">
+  </div>
+  <div class="form-group col-12  mt-4 ">
+    <label for="exampleInputPassword1">Contraseña(8 caracteres minimo)</label>
+    <input name="contraseña" type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña nueva">
+  </div>
+   <div class="form-group col-12  mt-4 ">
+    <label for="exampleInputPassword1">Confirmar contraseña</label>
+    <input type="password" class="form-control"  placeholder="Confirmar contraseña">
+  </div>
+  <div class="form-group col-12  mt-4 ">
+    <label for="exampleInputPassword1">Correo electronico</label>
+    <input name="email" type="form-control" class="form-control" placeholder="persona@gmail.com">
+  </div>
+  <button  type="submit" name="valider" value="enviar" class="btn btn-primary ml-3 ">Registrar</button>
+    <a href="index.html" type="submit" class="btn btn-primary ">Cancelar</a>
+</form>
+
+
+
+	</div>
+</div>
+
+<!-- <footer>
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <a href="#">¿quienes somos?</a>
+      
+    </div>
+    <div class="col-4">
+      <a href="#">¿que hacemos?</a>
+    </div>
+    <div class="col-4">
+      <a href="#">¿donde estamos?</a>
+    </div>
+    <div class="col-4">
+      <a href="#">¿buscas trabajo?</a>
+    </div>
+  </div>
+</div>
+</footer> --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

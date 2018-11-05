@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+
+body{
+
+margin: 0;
+padding:0;
+font-family: 'Roboto Condensed', sans-serif !important; 
+background: url(../img/14.jpg);
+color: #fff;
+
+
+}
+
+nav{
+background: rgba(0, 0, 0, 0.7);
+}
+
+
+nav .logo{
+font-family: 'Tangerine', cursive;
+	font-size: 27px;
+	color: #fff;
+s
+}
+
+
+section{
+
+padding: 70px 0 70px;
+
+}
+
+.box{
+position:relative;
+width: 100%;
+height: auto;
+overflow: hidden; 
+border-radius: 15px;
+background: #000;
+box-shadow: 0 5px 15px rgba(0,0,0,.5);
+transition: .5s;
+}
+
+.box:hover{
+
+	transform: translateY(-30px);
+	box-shadow: 0 50px 50px rgba(0,0,0,.5);
+}
+
+.box .imgbox{
+
+	position: relative;
+}
+.box .imgbox img{
+
+transition: .5s;
+
+}
+
+.box:hover .imgbox img{
+
+opacity: .5;
+transform: translateY(-40px);
+}
+
+.box .content{
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: .5s;
+	opacity: 0;
+}
+
+
+.box:hover .content{
+bottom: 0;
+opacity: 1;
+
+}
+
+.box .content h3{
+font-size: 18px;
+color: #fff;
+font-weight: 700;
+
+}
+.box .content p{
+font-size: 18px;
+color: #fff;
+font-weight: 400;
+
+}
+
+.box .content .btnD {
+
+border:none;
+background: #fe1b70;
+ color: #fff;
+ padding: 10px 20px;
+ font-weight: 700;
+ transition: .5s;
+}
+
+.box .content .btnD:hover{
+background: #f6fe01;
+color:#262626z;
+}
+

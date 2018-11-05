@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+body{
+
+margin: 0;
+padding: 0;
+font-family: 'Roboto Condensed', sans-serif !important; 
+
+}
+
+nav{
+    background: rgba(0, 0, 0, 0.7);
+    }
+    
+    
+    nav .logo{
+    font-family: 'Tangerine', cursive;
+        font-size: 27px;
+        color: #fff;
+    
+    }
+
+.fullBackground {
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(6px);
+  }
+
+  .titulo{
+position: relative;
+
+
+  }

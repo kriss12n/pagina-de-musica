@@ -1,0 +1,19 @@
+body{
+    background: #eeeeee;
+}
+
+
+nav{
+color:#fff;	
+background: rgba(0,0,0,0.5);
+}
+
+
+nav .logo{
+font-family: 'Tangerine', cursive;
+    font-size: 27px;
+   
+}
+
+
+
